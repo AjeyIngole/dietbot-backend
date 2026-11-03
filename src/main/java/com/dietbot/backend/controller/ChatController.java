@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/chat")
 @CrossOrigin(origins = {
-        "https://aidietbot-ajey.netlify.app",  // production frontend
+        "https://aidietbot-ajey-ingole.netlify.app",  // production frontend
         "http://localhost:5173"                 // local development
 })
 public class ChatController {
